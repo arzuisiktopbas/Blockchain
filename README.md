@@ -14,28 +14,32 @@
 ## Creating Nodes
 
 1- Create empty directories for nodes
-    mkdir node1 
-    mkdir node2
+
+    * mkdir node1 
+    * mkdir node2
 
 2- Get new accounts numbers from nodes to use as signers
-    ./geth account new --datadir node1
-    ./geth account new --datadir node2
+
+    * ./geth account new --datadir node1
+    * ./geth account new --datadir node2
+    
 3- Save passwords & Account addresses for use later
 
- ![1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/1.png)
+ ![step 1-2-3](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/1.png)
  
 Node 1: Public address of the key:   0xDFA75550A43F59590966A4F2AE0D9Af2d43DC8DE
-Path of the secret key file: node1/keystore/UTC--2021-03-08T21-12-00.576171000Z--dfa75550a43f59590966a4f2ae0d9af2d43dc8de
 Node 2: Public address of the key:   0x648Ac0ab0D9bA0e692C8A9104e7fb004fD05a0b2
-Path of the secret key file: node2/keystore/UTC--2021-03-08T21-12-39.703051000Z--648ac0ab0d9ba0e692c8a9104e7fb004fd05a0b2
 
-echo 'node1' > node1/password.txt
-echo 'node2' > node2/password.txt
-echo 'DFA75550A43F59590966A4F2AE0D9Af2d43DC8DE' >> accounts.txt
-echo '648Ac0ab0D9bA0e692C8A9104e7fb004fD05a0b2' >> accounts.txt
+    * echo 'node1' > node1/password.txt
+    * echo 'node2' > node2/password.txt
+    * echo 'DFA75550A43F59590966A4F2AE0D9Af2d43DC8DE' >> accounts.txt
+    * echo '648Ac0ab0D9bA0e692C8A9104e7fb004fD05a0b2' >> accounts.txt
  
 4- Run puppeth
-   ./puppeth
+
+     * ./puppeth
+     
+   ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/3.png)
    
 5- Initialize nodes 
    ./geth init arznet.json --datadir node1
