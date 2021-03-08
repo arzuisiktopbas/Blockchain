@@ -76,7 +76,11 @@ Node 2: Public address of the key:   0x648Ac0ab0D9bA0e692C8A9104e7fb004fD05a0b2
 3- Make transaction
    
    ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/11.png) 
+   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/12.png)
+   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/13.png) 
 
-4- Copy the hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup
+4- Copy the hash and paste it into the "TX Status" section of the app, or click "TX Status".
+
     Hash : "0x4aa8e35ce6c194050b8ba68105a38d84f91429c90fb7328d468fbc4e59f1e2dd"
+    
    ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/14.png) 
