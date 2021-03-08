@@ -39,6 +39,12 @@ Node 2: Public address of the key:   0x648Ac0ab0D9bA0e692C8A9104e7fb004fD05a0b2
 
     * ./puppeth
      
+   Network name: arznet
+   
+   Blocktime: 3 (Default 15)
+   
+   Network ID : 889
+   
    ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/3.png)
    ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/4.png)
    ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/5.png)
