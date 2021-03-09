@@ -49,6 +49,8 @@ Node 2: Public address of the key:   0x648Ac0ab0D9bA0e692C8A9104e7fb004fD05a0b2
    ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/4.png)
    ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/5.png)
    
+    * Exit puppeth by using the Ctrl+C keys combination.
+    
 5- Initialize nodes 
     
     * ./geth init arznet.json --datadir node1
